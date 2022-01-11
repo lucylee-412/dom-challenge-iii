@@ -29,7 +29,7 @@ main {
 
 }
 
-.cell {
+th, tr {
     width: 20px;
     height: 20px;
     display: flex;
