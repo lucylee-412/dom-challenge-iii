@@ -1,0 +1,20 @@
+body {
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 20px;
+    padding-right: 10px;
+    width: 15%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    text-align: right;
+}
+
+#color-grid {
+
+}
