@@ -1,29 +1,25 @@
 const colorGrid = document.getElementById("color-grid");
 
-let rows = 0;
-let cols = 0;
+let rowCount = 0;
+let colCount = 0;
 
-let row = document.createElement("tr");
-let col = document.createElement("th");
+let row = document.getElementsByTagName("tr");
 
-let cell = document.createElement("span");
-cell.classList.add("cell");
 
 function addRow() {
-    colorGrid.insertRow(-1);
-    rows++;
+    let newRow = colorGrid.insertRow(-1);
+    rowCount++;
 
-    for (let i = 0; i <= cols; i++) {
-        colorGrid.insertCell(i)
+    for (let i = 0; i <= colCount; i++) {
+        newRow.insertCell(i)
     }
 }
 
 function addCol() {
-    colorGrid.appendChild(cell)
-    col++;
+    colCount++;
 
-    for (let i = 0; i <= rows; i++) {
-        col.appendChild(row);
+    for (let i = 0; i <= colorGrid.rows.length; i++) {
+        newRow.insertCell(colCount);
     }
 }
 
