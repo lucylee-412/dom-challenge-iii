@@ -7,7 +7,7 @@ ul {
     margin: 0;
     padding-top: 20px;
     padding-right: 10px;
-    width: 15%;
+    width: 100px;
     background-color: #f1f1f1;
     position: fixed;
     height: 100%;
@@ -15,6 +15,17 @@ ul {
     text-align: right;
 }
 
+main {
+    margin-left: 150px;
+    padding: 1px 16px;
+}
+
+#color-menu {
+    display: inline-block;
+    position: relative;
+}
+
 #color-grid {
 
 }
+
