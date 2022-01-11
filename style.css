@@ -29,3 +29,10 @@ main {
 
 }
 
+.cell {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    border: 1px solid slategray;
+}
+
